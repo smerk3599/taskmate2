@@ -27,6 +27,18 @@ header .logo img {
   cursor: pointer;
 }
 
+header .logo img:hover {
+  background-color: #3e1ecd;
+  padding: 2px 2px;
+  animation: rotateX 2s infinite linear;
+}
+
+@keyframes rotateX {
+  to {
+    transform: rotateX(360deg) scale(0.1, 0.1);
+  }
+}
+
 header .logo span {
   font-size: 22px;
   margin-left: 7px;
