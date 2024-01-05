@@ -159,6 +159,7 @@ header .themeSelector .activeTheme {
 
 .showTask li:hover {
   background-color: #f8f8f8;
+  border-left: 5px solid #19e80aaf;
 }
 
 .showTask li p {
